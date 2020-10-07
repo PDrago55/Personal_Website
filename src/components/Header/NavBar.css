@@ -1,0 +1,37 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  justify-content: space-around;
+  background-color: #39bcc5;
+  width: 100%;
+  height: 50px;
+  margin: 0 auto;
+  align-items: center;
+  z-index: 1;
+}
+
+.nav-list::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 0%;
+  background-color: #ffffff;
+  transition: all ease-in-out 250ms;
+}
+
+.nav-list:hover::before {
+  width: 100%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.nav-list {
+  list-style-type: none;
+}
+
+.ref-list {
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+}

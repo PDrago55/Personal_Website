@@ -1,0 +1,23 @@
+.about-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header {
+  text-align: center;
+  border-bottom: 4px solid #39bcc5;
+}
+
+.image-container {
+}
+
+.image-style {
+  border-radius: 50%;
+  border: 1px solid #39bcc5;
+  width: 350px;
+  height: 350px;
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}

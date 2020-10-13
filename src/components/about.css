@@ -1,17 +1,21 @@
 .about-container {
   margin-top: 100px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
 
-.about-header {
+.section-header {
   text-align: center;
   border-bottom: 4px solid #39bcc5;
+  width: max-content;
+  margin: 50px auto;
 }
 
 .image-container {
+  margin: 0 0 0 50px;
 }
 
 .image-style {
@@ -20,4 +24,13 @@
   width: 350px;
   height: 350px;
   box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.about-text {
+  text-align: justify;
+  width: 500px;
+  border: 1px solid #000;
+  border-radius: 15px;
+  padding: 20px;
+  line-height: 1.5;
 }

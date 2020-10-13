@@ -9,6 +9,11 @@ function NavBar() {
         </a>
       </li>
       <li className="nav-list">
+        <a className="ref-list" href="#education_section">
+          Education
+        </a>
+      </li>
+      <li className="nav-list">
         <a className="ref-list" href="#languages_section">
           What I do
         </a>
@@ -16,11 +21,6 @@ function NavBar() {
       <li className="nav-list">
         <a className="ref-list" href="#projects_section">
           Projects
-        </a>
-      </li>
-      <li className="nav-list">
-        <a className="ref-list" href="#education_section">
-          Education
         </a>
       </li>
       <li className="nav-list">

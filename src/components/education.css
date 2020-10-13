@@ -1,0 +1,27 @@
+.edu-container-main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.edu-container-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.edu-image {
+  height: 250px;
+  width: 250px;
+}
+
+.edu-text-container {
+  margin: 0 50px 0 200px;
+  text-align: justify;
+}
+
+.edu-text {
+  line-height: 2;
+}

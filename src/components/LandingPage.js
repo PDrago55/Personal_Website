@@ -16,9 +16,9 @@ function LandingPage() {
           </div>
         </div>
         <About />
+        <Education />
         <Languages />
         <Projects />
-        <Education />
         <Contact />
       </div>
     </>

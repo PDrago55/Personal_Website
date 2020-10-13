@@ -1,0 +1,67 @@
+.lang-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 20px 500px 20px;
+}
+
+.lang-desc {
+  text-align: center;
+}
+
+.lang-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.lang-circle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background-color: #39bcc5;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 3px solid #39bcc5;
+  cursor: pointer;
+}
+
+.lang-circle:hover {
+  color: #39bcc5;
+  background-color: #ffffff;
+  transition: ease-in-out 350ms;
+}
+
+.list-container {
+  position: absolute;
+  visibility: hidden;
+  list-style-type: none;
+  top: 100%;
+  left: 0;
+  transform: translateY(-1em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+    z-index 0s linear 0.01s;
+}
+
+.lang-circle:focus .list-container,
+.lang-circle:focus-within .list-container,
+.lang-circle:hover .list-container {
+  opacity: 1;
+  z-index: 1;
+  visibility: visible;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+}
+
+.list-container li {
+  text-align: center;
+  padding: 20px;
+  width: max-content;
+  font-size: 38px;
+  color: #39bcc5;
+}

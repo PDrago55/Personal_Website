@@ -3,7 +3,9 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div id="contact_section">Contact Section</div>
+      <h1 id="contact_section" className="section-header">
+        Contact Section
+      </h1>
     </>
   );
 }

@@ -4,11 +4,11 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 50px 20px 500px 20px;
+  padding: 50px 20px 400px 20px;
 }
 
 .lang-desc {
-  text-align: center;
+  text-align: justify;
 }
 
 .lang-card {

@@ -7,7 +7,7 @@ function Languages() {
         What I do
       </h1>
       <p className="lang-desc">
-        ndjdnewhewgryewhriuegfyugfiyesgfeiygfeygfeyfgeyfgfhfeydfjndsnjkfdsjnkfsnfdfbdbshshsvddvgefdvsgfdvsgsg
+        ndjdnewhewgryewhriuegfyugfiyesgfeiygfeygfeyfgeyfgfhfeydfjndsnjkfdsjnkfsnfdfbdbshshsvddvgefdvsgfdvsgsgdhdfhfeuhfuefyuigqwefliudgidsbfyewigflilwegfyiewvfl
       </p>
       <div className="lang-container">
         <div className="lang-card">

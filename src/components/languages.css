@@ -9,6 +9,11 @@
 
 .lang-desc {
   text-align: justify;
+  width: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  line-height: 1.5;
+  margin: 0 auto;
 }
 
 .lang-card {

@@ -7,8 +7,11 @@ function Languages() {
         What I do
       </h1>
       <p className="lang-desc">
-        ndjdnewhewgryewhriuegfyugfiyesgfeiygfeygfeyfgeyfgfhfeydfjndsnjkfdsjnkfsnfdfbdbshshsvddvgefdvsgfdvsgsgdhdfhfeuhfuefyuigqwefliudgidsbfyewigflilwegfyiewvfl
+        As you can now suspect, I am a Full-Stack Web Developer. I specialize in
+        both Front End and Back End Technologies and languages in order to build
+        complete, authentic and responsive websites.
       </p>
+
       <div className="lang-container">
         <div className="lang-card">
           <div className="lang-circle">

@@ -9,12 +9,13 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-left: 140px;
   margin-bottom: 50px;
 }
 
 .edu-image {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
 
 .edu-text-container {
@@ -24,4 +25,5 @@
 
 .edu-text {
   line-height: 2;
+  margin-right: 150px;
 }

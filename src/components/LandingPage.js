@@ -5,6 +5,7 @@ import Languages from "./Languages";
 import Projects from "./Projects";
 import Education from "./Education";
 import Contact from "./Contact";
+import Footer from "./Footer/Footer";
 function LandingPage() {
   return (
     <>
@@ -20,6 +21,7 @@ function LandingPage() {
         <Languages />
         <Projects />
         <Contact />
+        <Footer />
       </div>
     </>
   );

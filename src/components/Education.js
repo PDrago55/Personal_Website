@@ -16,7 +16,7 @@ function Education() {
             <img src="psychology.png" alt="psych" className="edu-image"></img>
           </div>
           <div className="edu-text-container">
-            <h3>Psychology</h3>
+            <h3 className="study">Psychology</h3>
             <p className="edu-text">{psycText}</p>
           </div>
         </div>
@@ -30,7 +30,7 @@ function Education() {
           </div>
 
           <div className="edu-text-container">
-            <h3>Web Development</h3>
+            <h3 className="study">Web Development</h3>
             <p className="edu-text">{codeText}</p>
           </div>
         </div>

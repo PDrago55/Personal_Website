@@ -33,14 +33,14 @@ function Languages() {
               <li>Express</li>
               <li>MongoDB</li>
               <li>MySQL</li>
-              <li>Javascript Web Tokens</li>
+              <li>JS Web Tokens</li>
             </li>
           </div>
         </div>
         <div className="lang-card">
           <div className="lang-circle">
             Tools
-            <li className="list-container" tabIndex="0">
+            <li className="list-container" id="tool_id" tabIndex="0">
               <li>Git</li>
               <li>GitHub</li>
               <li>Trello</li>

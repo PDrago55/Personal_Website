@@ -70,3 +70,124 @@
   font-size: 38px;
   color: #39bcc5;
 }
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+  .lang-desc {
+    text-align: justify;
+    width: 700px;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 2;
+    margin: 0 auto;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 20px;
+  }
+  .lang-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #39bcc5;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid #39bcc5;
+    cursor: pointer;
+  }
+
+  .list-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+    list-style-type: none;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-1em);
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+      z-index 0s linear 0.01s;
+  }
+  .list-container li {
+    font-size: 24px;
+    text-align: end;
+    padding: 10px;
+  }
+
+  .lang-desc {
+    text-align: justify;
+    width: 500px;
+    border-radius: 15px;
+    padding: 10px;
+    line-height: 1.5;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .lang-desc {
+    text-align: justify;
+    width: 300px;
+    border-radius: 0;
+    padding: 5px;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  .lang-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 10px;
+  }
+  .lang-circle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #39bcc5;
+    width: 100px;
+    height: 100px;
+    font-size: 18px;
+    margin: 20px;
+    border-radius: 50%;
+    border: 2px solid #39bcc5;
+    cursor: pointer;
+  }
+
+  .list-container {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    visibility: hidden;
+    list-style-type: none;
+    top: 100%;
+    left: -100px;
+    transform: translateY(-1em);
+    z-index: -1;
+    transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s,
+      z-index 0s linear 0.01s;
+  }
+  .list-container li {
+    font-size: 12px;
+    text-align: center;
+    padding: 8px;
+  }
+}

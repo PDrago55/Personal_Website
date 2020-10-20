@@ -25,3 +25,76 @@
 .welcome {
   color: #ffffff;
 }
+
+.icon-container-arrow {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  color: #39bcc5;
+  cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1024px) {
+  .container {
+    position: absolute;
+    width: 100vw;
+    z-index: 0;
+  }
+  .bg_lp {
+    position: relative;
+    background-image: url("/Intro_Image_bg.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    opacity: 0.9;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    position: absolute;
+    width: 100vw;
+    z-index: 0;
+  }
+  .bg_lp {
+    position: relative;
+    background-image: url("/Intro_Image_bg.jpg");
+    width: 868px;
+    height: 100vh;
+    background-size: cover;
+    opacity: 0.9;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    position: absolute;
+    width: 375px;
+    z-index: 0;
+  }
+  .bg_lp {
+    position: relative;
+    background-image: url("/Intro_Image_bg.jpg");
+    width: 375px;
+    height: 300px;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  .text-container {
+    position: relative;
+    left: 70px;
+    top: 200px;
+    width: fit-content;
+  }
+
+  .intro {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .welcome {
+    color: #ffffff;
+    font-size: 18px;
+  }
+}

@@ -46,18 +46,18 @@ function ModalContact() {
       {/* //build modal with material UI */}
 
       <Button variant="outlined" color="primary" onClick={handleClickOpen}>
-        Click Me
+        Contact
       </Button>
       <Dialog
         open={open}
         onClose={handleClickClose}
         aria-labelledby="form-dialog-title"
       >
-        <DialogTitle id="form-dialog-title">{`Contact ME :)`}</DialogTitle>
+        <DialogTitle id="form-dialog-title">{`Contact :)`}</DialogTitle>
         <DialogContent>
           <DialogContentText>
             Hey! If you want to book a meeting for consulting or just want to
-            chat, let me know below!
+            chat, let me know below! I'll get back to you ASAP!
           </DialogContentText>
           <TextField
             autoFocus

@@ -1,12 +1,12 @@
 "use strict";
 
-const express = require("express");
-const bodyParser = require("body-parser");
-const nodemailer = require("nodemailer");
+const express = require("./node_modules/express");
+const bodyParser = require("./node_modules/body-parser");
+const nodemailer = require("./node_modules/nodemailer");
 const PORT = 4000;
 const creds = require("./config");
 const path = require("path");
-const favicon = require("express-favicon");
+const favicon = require("./node_modules/express-favicon");
 const transport = {
   host: "smtp.gmail.com",
   port: 587,

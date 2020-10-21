@@ -5,7 +5,8 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const PORT = 4000;
 const creds = require("./config");
-
+const path = require("path");
+const favicon = require("express-favicon");
 const transport = {
   host: "smtp.gmail.com",
   port: 587,
@@ -41,20 +42,29 @@ express()
   })
   .use(bodyParser.json())
 
+  //setting up heroku//
+  .use(favicon(__dirname + "/public/initial.png"))
+  .use(express.static(__dirname))
+  .use(express.static(path.join(__dirname, "build")))
+  .get("/ping", function (req, res) {
+    return res.send("pong");
+  })
+  .get("/*", function (req, res) {
+    res.sendFile(path.join(__dirname, "build", "index.html"));
+  })
+
   ///endpoints
   .post("/api/contact", async (req, res) => {
     const fName = req.body.fName;
     const lName = req.body.lName;
     const email = req.body.email;
     const subject = req.body.subject;
-    console.log(fName);
     const mail = {
       from: email,
       to: creds.USER,
       subject: fName,
       text: `name: ${fName} ${lName} \n email: ${email} \n message: ${subject}`,
     };
-    console.log(mail);
     transporter.sendMail(mail, (err, data) => {
       if (err) {
         res.json({

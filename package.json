@@ -2,7 +2,7 @@
   "name": "drago",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4000/",
+  "proxy": "http://localhost:8080/",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@testing-library/jest-dom": "^4.2.4",
@@ -15,7 +15,7 @@
     "styled-components": "^5.2.0"
   },
   "scripts": {
-    "start": "node /Users/paolodrago/Desktop/Personal_Website/drago/Server/index.js",
+    "start": "node drago/Server/index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
